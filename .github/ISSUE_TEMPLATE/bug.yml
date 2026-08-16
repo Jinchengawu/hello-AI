@@ -1,0 +1,30 @@
+name: 文档或代码问题
+description: 报告错误、失效链接或无法复现的实验
+title: "[问题] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: 问题位置
+      description: 请提供章节链接、文件或代码位置。
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: 实际情况
+      description: 发生了什么？请隐藏密钥和个人数据。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期情况
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 如与代码有关，请提供操作系统、Python/Node 和依赖版本。

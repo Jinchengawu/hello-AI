@@ -1,0 +1,12 @@
+Hello AI uses a dual-license model.
+
+Educational content, including files under docs/ and tutorial prose in
+repository-level Markdown files, is licensed under CC BY-NC-SA 4.0.
+See LICENSE-CONTENT for the terms and links to the full legal code.
+
+Source code, examples, site configuration, scripts, tests, and automation are
+licensed under the Apache License 2.0. See LICENSE-CODE for the full text.
+
+Third-party dependencies and cited materials remain subject to their own
+licenses. When a file carries a more specific license notice, that notice
+takes precedence for that file.

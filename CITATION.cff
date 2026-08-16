@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "如果 Hello AI 对你的工作有帮助，请引用本项目。"
+title: "Hello AI: 大模型全链路工程自学指南"
+type: software
+authors:
+  - name: "Jinchengawu and contributors"
+repository-code: "https://github.com/Jinchengawu/hello-AI"
+url: "https://jinchengawu.github.io/hello-AI/"
+license: "CC-BY-NC-SA-4.0 AND Apache-2.0"
+version: 0.1.0
+date-released: 2026-08-16

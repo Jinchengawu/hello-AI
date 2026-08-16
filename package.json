@@ -1,0 +1,20 @@
+{
+  "name": "hello-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hello AI：大模型全链路工程自学指南",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check": "npm run docs:build && python3 -m unittest discover -s examples/shoplm-mini/tests -v"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "mermaid": "11.16.1",
+    "vitepress": "2.0.0-alpha.19"
+  }
+}

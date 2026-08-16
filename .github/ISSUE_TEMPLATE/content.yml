@@ -1,0 +1,24 @@
+name: 内容建议
+description: 建议新章节、案例或解释方式
+title: "[内容] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: learner_problem
+    attributes:
+      label: 学习者问题
+      description: 这项内容帮助学习者解决什么具体问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 请说明建议结构、实践产出和可验证标准。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 参考资料
+      description: 优先提供论文、官方文档或原始资料。
